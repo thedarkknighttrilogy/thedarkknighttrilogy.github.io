@@ -4,7 +4,10 @@
 	src:url('../fonts/cts.ttf');
 }
 
-
+.foot-img{
+  display: inline;
+  width: 300px;
+}
 
 
 nav {
@@ -214,7 +217,7 @@ text-align: center;
 top: 60px;
 margin-bottom: 22%;
 margin-left: 546px;
-background-color: #999999;
+background-color: transparent;
 z-index: 15;
 border-top-right-radius: 50%;
 border-top-left-radius: 50%;
@@ -238,19 +241,19 @@ border-bottom-left-radius: 50%;
   right: auto;
 }
 .timeline-badge.primary {
-  background-color: #2e6da4 !important;
+  background-color: transparent !important;
 }
 .timeline-badge.success {
-  background-color: #3f903f !important;
+  background-color: transparent !important;
 }
 .timeline-badge.warning {
-  background-color: #f0ad4e !important;
+  background-color: transparent !important;
 }
 .timeline-badge.danger {
-  background-color: #d9534f !important;
+  background-color: transparent !important;
 }
 .timeline-badge.info {
-  background-color: #5bc0de !important;
+  background-color: transparent !important;
 }
 .timeline-title {
   margin-top: 0;
